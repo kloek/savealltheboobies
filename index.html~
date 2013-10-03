@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style-home.css" />
+		<script type="text/javascript" src="js/jquery-2.0.1.min.js"></script>
+		<script type="text/javascript" src="js/menu.js"></script>
+		<TITLE>Savealltheboobies</TITLE>
+	</head>
+	
+	<body>
+		<div id="main-body">
+				<div id="topbar">
+					<div id="logo">
+						SAVEALLTHEBOOBIES
+					</div>
+				</div>
+				<div id="top-menubar">
+
+						<div class="menu-item-div">
+							<a href="index.html" class="menuitem">
+								Hem
+							</a>
+						</div>
+
+						<div class="menu-item-div">	
+							<a href="about.html" class="menuitem">
+								Om Oss
+							</a>
+						</div>
+
+						<div class="menu-item-div">
+							<a href="difference.html" class="menuitem">
+								Gör Skillnad
+							</a>
+						</div>
+
+						<div class="menu-item-div">
+							<a href="contact.html" class="menuitem">
+								Kontakta Oss
+							</a>
+						</div>		
+				</div>
+
+				<div id="content-body">
+					<div class="wide" id="pic-and-slogan">
+						<div id="pic">
+							<img id="pic" src="pics/hem.jpg" border=0>
+						</div>
+
+						<div id="slogan-box">
+							<h1 id="slogan">Vill du</h1>
+							<h1 id="slogan">vara med</h1>
+							<h1 id="slogan">i kampen</h1>
+							<h1 id="slogan">för att rädda</h1>
+							<h1 id="slogan">alla världens <span id="pink" >bröst</span>?</h1>
+						</div>
+					</div>
+					<div class="wide" id="home-text-div">
+						<h2><span id="pink">savealltheboobies</span> startade år 2013 av Emma, Josefina och Linnea som tillsammans ville hjälpas åt att rädda alla världens 	bröst.<br>
+						Vill du hjälpa till  är du mer än välkommen att sätta in ett bidrag på pg-901567.<br>
+						Tack, ditt bidgar räddar liv. Och <span id="pink">bröst</span>.<br> </h2>
+
+					</div>
+				</div>
+		</div>
+	</body>
+</html>

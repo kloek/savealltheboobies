@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style-contact.css" />
+		<script type="text/javascript" src="js/jquery-2.0.1.min.js"></script>
+		<script type="text/javascript" src="js/menu.js"></script>
+		<TITLE>Savealltheboobies</TITLE>
+	</head>
+	
+	<body>
+		<div id="main-body">
+				<div id="topbar">
+					<div id="logo">
+						SAVEALLTHEBOOBIES
+					</div>
+				</div>
+				<div id="top-menubar">
+
+						<div class="menu-item-div">
+							<a href="index.html" class="menuitem">
+								Hem
+							</a>
+						</div>
+
+						<div class="menu-item-div">	
+							<a href="about.html" class="menuitem">
+								Om Oss
+							</a>
+						</div>
+
+						<div class="menu-item-div">
+							<a href="difference.html" class="menuitem">
+								Gör Skillnad
+							</a>
+						</div>
+
+						<div class="menu-item-div">
+							<a href="contact.html" class="menuitem">
+								Kontakta Oss
+							</a>
+						</div>		
+				</div>
+
+				<div id="content-body">
+
+					<div id="contact_header" class="wide">
+						Kontakta oss
+					</div>
+
+
+					<div id="contact_form_div">
+						<form id="contact_form">
+							<div class="form_row">
+								<div class="form_row_name">
+									Namn:
+								</div>
+								<div class="form_row_input">
+									<input type="text" name="name" value="" class="contactfield" id="name">
+									<span id="pink">*</span>
+								</div>
+							</div>
+		
+							<div class="form_row">
+								<div class="form_row_name">
+									E-postadress:
+								</div>
+								<div class="form_row_input">
+									<input name="email" type="text" id="email" value="" class="contactfield" maxlength="255">
+									<span id="pink">*</span>
+								</div>
+							</div>
+
+							<div class="form_row">
+								<div class="form_row_name">
+									Telefon:
+								</div>
+								<div class="form_row_input">
+									<input name="phone" type="text" id="phone" value="" class="contactfield" maxlength="255">
+									<span id="pink">*</span>
+								</div>
+							</div>
+
+							<div class="form_row">
+								<div class="form_row_name">
+									Ärende:
+								</div>
+								<div class="form_row_input">
+									<input name="subj" type="text" id="subj" value="" class="contactfield" maxlength="255">
+									<span id="pink">*</span>
+								</div>
+							</div>
+
+							<div class="form_row" id="form_row_input_textarea">
+								<div class="form_row_name">
+									Medelande:
+								</div>
+								<div class="form_row_input">
+									<textarea name="msgarea" rows="6" class="contactfield" id="msgarea"></textarea>
+									<span id="pink">*</span>
+								</div>
+							</div>
+
+							<div class="form_row">
+								<input type="submit" name="sendmail" id="sendbutton" value="Skicka">
+							</div>
+
+						</form>
+					</div>
+					<div id="contact_info_div">
+						<span id="pink">Telefon:</span> 1-800-fakenumber <br><br>
+						<span id="pink">Email:</span> savealltheboobies@gmail.com
+					</div>
+					
+					
+				</div>
+		</div>
+	</body>
+</html>

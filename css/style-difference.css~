@@ -1,0 +1,43 @@
+
+
+#har_du{
+	
+	text-align: center;
+	width: 600px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#time_table{
+	width: 700px;
+	height: 270px;
+	
+}
+
+#time_table_row{
+	width: 700px;
+	height: 90px;
+}
+
+.time_table_left{
+	width: 280px;
+	padding-right: 20px;
+	float: left;
+	text-align: right;
+	height: 90px;
+	font-size: 23px;
+	text-decoration:none;
+	color: #ff99cc;
+
+}
+
+.time_table_right{
+	width: 380px;
+	padding-left: 20px;
+	float:right;
+	text-align: left;
+	height: 90px;
+
+	text-decoration:none;
+	color:#AAAAAA;
+}

@@ -1,0 +1,10 @@
+ $(this).scroll(function() {
+    if ($(this).scrollTop() > 100) { 
+        $("#main").css({ "position": "fixed", "top": "0px" });
+    } else {
+        $("#main").css({ "position": "absolute", "top": "100px" });
+		$("#content-body").css({ "margin-top": "38px"});
+    }   			
+});
+
+
